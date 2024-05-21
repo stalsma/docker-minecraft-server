@@ -40,4 +40,4 @@ services:
       - ./vanillatweaks-resourcepacks.json:/config/vanillatweaks-resourcepacks.json:ro
       - ./vanillatweaks-craftingtweaks.json:/config/vanillatweaks-craftingtweaks.json:ro
 volumes:
-  data:/volume1/docker/minecraft
+  data:
